@@ -53,3 +53,8 @@ los Display(Audio() que nos sirvieron para poder generar un ventana la cual repr
 
 
 ![](https://github.com/StarNathaly/Lab_2_senales_problema_del_coctel/blob/main/7.JPG)
+
+### Análisis general.
+- Los SNR de los tres audios cumplen con la calidad esperada, ya que presentan valores positivos y alejados del cero. Esto indica que el ruido es menos significativo en comparación con el audio que deseamos resaltar.
+- Cada voz humana genera un rango específico de frecuencias, y la FFT nos permite identificar en qué rango se encuentran al transformar el dominio temporal al de frecuencia. El filtro pasabanda deja pasar las frecuencias específicas dentro de los rangos más destacados, pero la cercanía entre las voces dificulta el proceso de separación.
+
